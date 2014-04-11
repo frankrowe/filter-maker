@@ -1,0 +1,19 @@
+{
+  "name": "filter-maker",
+  "version": "0.0.1",
+  "description": "filter-maker ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankrowe/filter-maker"
+  },
+  "author": "Frank Rowe <fsrowe@gmail.com> (http://frankrowe.org/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankrowe/filter-maker/issues"
+  },
+  "homepage": "https://github.com/frankrowe/filter-maker"
+}
