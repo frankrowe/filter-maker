@@ -15,7 +15,7 @@ var sql_template = [
   'where column is not null',
   '{{dateFilter}}',
   '{{countFilter}}'
-].join()
+].join(' ')
 
 var defaults = {}
 var config = {
