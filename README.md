@@ -7,15 +7,15 @@ filter-maker
 
 ## Example
 
-```SQL
-select column from table
-where column is not null
-{{dateFilter}}
-{{countFilter}}
-```
-
 ```javascript
 var FilterMaker = require('filter-maker')
+
+var sql_template = [
+  'select column from table',
+  'where column is not null',
+  '{{dateFilter}}',
+  '{{countFilter}}'
+].join()
 
 var defaults = {}
 var config = {
@@ -34,7 +34,7 @@ var config = {
 
 var filters = new FilterMaker(defaults, config)
 
-var query_info = filters.addFilters({
+var query_info = filters.addFilters(sql_template, {
   'date': '2014-04-11',
   'count': 15
 })
