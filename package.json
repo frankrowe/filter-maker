@@ -1,6 +1,6 @@
 {
   "name": "filter-maker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "filter-maker ============",
   "main": "index.js",
   "scripts": {
